@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<%= csrf_meta_tag %>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<%= render "meta" %>
+
+<title><%= title %></title>
+
+
+<!-- style: CANDY -->
+<link href="stylesheets/candy.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+<body>
+
+<%= render 'noscript' %>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="wrapper everything">
+
+
+<%= render "menu" %>
+
+
+
+<!-- ============================================== -->	
+<!-- !   product image tagline and brief quote     -->
+<!-- ============================================== -->
+<div class="wrapper topSection">
+	<div id="topSection">
+    
+    
+    
+    	<div class="leftCol">
+        	
+            <!-- main product image or slideshow -->
+        	<img src="images/content/fruit.png" alt="housr - Find a Realt Estate Agent in the Greater Toronto Area" />
+            
+        </div><!-- /leftCol -->
+        
+        
+        
+        <div class="rightCol">
+        
+        	<!-- main tagline -->
+        	<h2>Find a Real Estate Agent in the GTA FREE!</h2>
+            
+            <!-- purpose message -->
+            <p>
+                Browse for the perfect Realtor in your neighbourhood and checkout their profile to make sure you're getting the right person for the job. Or use our service to be put into contact with 5 of the best fits for you in your area and get proposals sent to you. Don't worry, it's all <strong>free</strong>.
+            </p>
+            
+        </div><!-- /rightCol -->
+        
+        
+    
+    </div><!-- /#topSection -->
+</div><!-- END: wrapper.topSection -->
+
+
+
+<!-- ============================================== -->	
+<!-- !                MID CONTENT                  -->
+<!-- ============================================== -->
+<div class="wrapper midSection">
+	<div id="midSection">
+    
+    
+    	<div class="topNode">
+        
+            <p>
+                <a href="find" class="bigSignUp">Find Realtor</a>
+                
+                <span>- or -</span>
+                
+                <a href="agent" class="bigArrow">For Agents</a>
+                
+             </p>
+        
+        </div><!-- /topNode -->
+        
+        
+        <br class="clearfloat" />
+        
+        
+        <!--  ===============  -->
+        <!-- !  main features  -->
+        <!--  ===============  -->
+
+<%= render 'mainfeatures' %>
+    
+    
+
+    </div><!-- /#midSection -->
+</div><!-- END: wrapper.midSection -->
+
+<div class="wrapper midSectionBottom"><!-- no content here | bottom ribbon --></div>
+<!-- END: wrapper.midSectionBottom -->
+
+
+
+
+
+
+
+<!-- ============================================== -->	
+<!-- !                MAIN CONTENT                  -->
+<!-- ============================================== -->
+<div class="wrapper content">
+	<div id="content">
+    
+
+
+        <div id="features">
+        
+        
+           <div class="featureList">
+            
+                <div class="feature">
+                    <a href="buy" title="Find a Realtor to help me buy a house"><img src="images/content/triworks_abstract38.jpg" alt="Find a Realtor to help me buy a house" /></a>
+                    <h3>Home Buyers</h3>
+                    <p>If you need an agent to buy a home with get proposals from Realtors who buy homes in the area you are looking at and get the local knowledge you need.</p>
+                </div>
+                
+                <div class="feature">
+                    <a href="sell" title="Find a Real Estate Agent to sell my home"><img src="images/content/triworks_abstract4.jpg" alt="Find a Real Estate Agent to sell my home" /></a>
+                    <h3>Home Sellers</h3>
+                    <p>Sell your home with a Realtor who specializes in your area and knows the market in your neighbourhood for the best selling experience and a quick sale.</p>
+                </div>
+                
+                <div class="feature">
+                    <a href="rent" title="I need an agent to help me find a place to rent"><img src="images/content/triworks_abstract13.jpg" alt="I need an agent to help me find a place to rent" /></a>
+                    <h3>Home Renters</h3>
+                    <p>If you need to find a place to rent, a Realtor can help you find the perfect house or apartment in your budget and get you the best deal possible.</p>
+                </div>
+                
+                <div class="feature">
+                    <a href="agent" title="Go to the section for Realtors"><img src="images/content/triworks_abstract14.jpg" alt="Go to the section for Realtors" /></a>
+                    <h3>Realtors Area</h3>
+                    <p>Learn more about how <strong>housr</strong> can help get you in touch with clients local to you and who need your unique expertise.</p>
+                </div>
+                
+
+
+                
+            <br class="cleafloat" />
+            </div><!-- /featureList -->
+    
+        </div><!-- /#features -->
+        
+        
+        
+        <br />       
+        <br class="clearfloat" />
+        
+        
+        <a href="find"><img src="images/content/bannerFull_width.png" alt="Find an Agent" /></a>
+        
+        
+        <br class="clearfloat" />
+        <br />
+        <br />
+        <br />
+        
+        
+        <div class="leftCol">
+        
+            <h3>It doesn't have to be a bother</h3>
+            
+            <p>
+            Finding a Real Estate Agent doesn't have to boil down to choosing the first Realtor who contacts you or relying on flyers. You should be able to select your agent based on their location, expertise and feedback from other buyers, sellers or renters who have dealt with them before. The right agent makes a world of difference in what is a huge transaction and will make it a pleasant experience.
+            </p>
+            
+            <blockquote>Don't settle for the first Realtor at your door, pick the perfect agent for you using <strong>housr</strong>.
+            </blockquote>
+            
+            <p>
+            Best of all, this service is provided to you for absolutely no money at all. <strong>housr</strong> is a free service that gets you introduced to the Realtor that will work with you to make your dream home a reality.
+            </p>
+        
+        </div><!-- /leftCol -->
+
+
+        <div class="rightCol fltlft">
+        
+            <p>
+            	<!-- 
+                link to an external html file where the embed code is.
+                you can paste the embed code directly here but then your
+                page won't validate. Also, the colorbox (lightbox) is 
+                quite sexy!
+                 -->
+                <a class="embed" href="videos/embed1.html" title="Vimeo | Embeded Video"><img src="images/content/screenshot.png" alt="candyShoppe video" /></a>
+            </p>
+        
+        </div><!-- /leftCol -->
+
+
+
+
+    
+    </div><!-- /#content -->
+</div><!-- END: wrapper.content -->
+
+
+
+
+<!-- ============================================== -->	
+<!-- !       ....aaaaaand we're done here           -->
+<!-- ============================================== -->
+
+<%= render 'footer' %>
+
+
+
+
+
+
+
+
+</div><!-- END: .everything -->
+
+
+
+<!-- 
+elements inside div with class "hidden" 
+are hidden by default until colorboxed up
+-->
+
+<%= render 'hidden' %>
+
+
+
+<!-- ============================================== -->	
+<!-- !         tracking and analytics               -->
+<!-- ============================================== -->
+
+
+<%= render 'scripts' %>
+
+
+</body>
+</html>

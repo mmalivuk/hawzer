@@ -1,0 +1,46 @@
+<!-- scripts -->
+<script type="text/javascript" src="javascripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="javascripts/jquery.validate.pack.js"></script>
+<script type="text/javascript" src="javascripts/js.js"></script>
+<script type="text/javascript" src="javascripts/jquery.tweet.js"></script>
+<script type="text/javascript" src="javascripts/jquery.colorbox.js"></script>
+
+<!--
+==========
+twitter
+function
+==========
+-->
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(".tweet").tweet({
+	//enter you twitter username
+	username: "mmalivuk",
+	join_text: "auto",
+	//uncomment below line to un-suppress avatar
+	//avatar_size: 32,
+	//line below limits the tweets to 1 tweet
+	count: 1,
+	auto_join_text_default: "i said ", 
+	auto_join_text_ed: "i",
+	auto_join_text_ing: "i was ",
+	auto_join_text_reply: "i replied to ",
+	auto_join_text_url: "i was checking out ",
+	loading_text: "loading tweets..."
+});
+});
+</script>
+
+
+<!--
+==========
+quickLogin
+validations
+==========
+-->
+<script type="text/javascript">
+$(document).ready(function($){
+	//validate hidden login (lightbox)	
+	$("#hiddenLogin").validate();		
+});
+</script>

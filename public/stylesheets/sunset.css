@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*
+Theme Name:     candyShoppe - sunset
+Theme URI:      http://danjoedesign.com/
+Description:    a (x)HTML template for web apps, web services and web products
+Version:        1.0
+Last Updated:	June 07, 2010
+Copyright:		(c) 2010 Joe Nyaggah. All rights reserved.
+Author:         Joe Nyaggah.
+Author URI:     http://danjoedesign.com/
+*/
+@import url('resets.css');
+@import url('colorbox.css');
+@import url('nivo-slider.css');
+@import url('custom-nivo-slider.css');
+@import url('candy.css');
+.header {
+	background: #A6200C url(../images/sunset/header.png) top left repeat-x;
+}
+.topSection {
+	background: #ED1C24 url(../images/sunset/topSection.png) top left repeat-x;
+	border-top: 1px solid #FFF200;
+}
