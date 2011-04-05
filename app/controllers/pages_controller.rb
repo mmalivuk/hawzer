@@ -33,5 +33,10 @@ class PagesController < ApplicationController
     @title = "Find a Real Estate Agent"
     @tag = "find agents"
   end
+  
+  def register
+    @title = "Realtor Registration"
+    @tag = "Realtor Registration"
+  end
 
 end

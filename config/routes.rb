@@ -15,6 +15,8 @@ H::Application.routes.draw do
   
   get "pages/find"
   
+  get "pages/register"
+  
   match '/' => 'pages#index'
   
   match 'about' => 'pages#about'
@@ -28,6 +30,8 @@ H::Application.routes.draw do
   match 'agent' => 'pages#agent'
   
   match 'find' => 'pages#find'
+  
+  match 'register' => 'pages#register'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
